@@ -17,7 +17,7 @@ task.spawn(function()
                 local rootPart = character.HumanoidRootPart
                 local humanoid = character:FindFirstChildOfClass("Humanoid")
                 
-                -- ล็อคความเร็วการเดินสำหรับ Delta 
+                
                 if humanoid then
                     humanoid.WalkSpeed = 35
                 end
